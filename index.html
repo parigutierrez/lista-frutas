@@ -2,24 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Frutas Master</title>
+    <title>Frutas Master</title>  <!--Título de la página-->
   </head>
   <body>
-    <script src="assets/js/javascript.js"></script>
-    <body style="background-color: #F3F781;">
-      <h1><font color="brown">Lista de Frutas</font></h1>
-      <p><b>Frutas Master</b> es una empresa familiar de tercera generación que se dedica a la compra, venta y distribución de frutas al por mayor. <br>
-      En la actualidad, somos la empresa líder en el servicio de distribución de frutas.</font></p>
-      <img src="frutas-1.jpg">
-          <ol id="lista"> <b>Catálogo:</b><br><br>
-            <li>Manzana</li>
+    <script src="assets/js/javascript.js"></script> <!--Ruta para enlazar con javascript-->
+    <body style="background-color: #F3F781;"> <!--Color de fondo-->
+
+      <h1><font color="brown">Lista de Frutas</font></h1> <!--Encabezado y su color de fondo-->
+        <p><b>Frutas Master</b> es una empresa familiar de tercera generación que se dedica a la compra, venta y distribución de frutas al por mayor. <br>
+          En la actualidad, somos la empresa líder en el servicio de distribución de frutas.</font></p> <!--Párrafo con título en bold-->
+
+          <img src="frutas-1.jpg"> <!--Insertar imagen-->
+
+          <ol id="lista"> <b>Catálogo:</b><br><br> <!--Crear lista de frutas-->
+            <li>Manzana</li> <!--Elementos de la lista-->
             <li>Pera</li>
             <li>Piña</li>
             <li>Cereza</li>
             <li>Naranja</li>
-          </ol>
-          <input type= "text" id= "agregarFruta" value="fruta"/>
-          <button type="button" onclick="agregar();">Agregar</button>
+          </ol>             <!--Termina la lista-->
 
+          <input type= "text" id= "agregarFruta" value="fruta"/> <!--Input donde se agregarán las nuevas frutas-->
+          <button type="button" onclick="agregar();">Agregar</button> <!--Botón que ejecuta la función Agregar-->
   </body>
 </html>
