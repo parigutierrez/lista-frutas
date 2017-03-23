@@ -7,18 +7,20 @@
   <body>
     <script src="assets/js/javascript.js"></script>
     <body style="background-color: #F3F781;">
-      <h1><font color="brown">Lista de Frutas</font></h1>
+      <h2><font color="brown" >Lista de Frutas</font></h2>
       <p><b>Frutas Master</b> es una empresa familiar de tercera generación que se dedica a la compra, venta y distribución de frutas al por mayor. <br>
       En la actualidad, somos la empresa líder en el servicio de distribución de frutas.</font></p>
-      <img src="frutas-1.jpg">
-          <ol id="lista"> <b>Catálogo:</b><br><br>
+
+      <img align=right src="frutas-1.jpg">
+
+          <ol id="lista" onclick="borrar();"> <b>Catálogo:</b><br><br>
             <li>Manzana</li>
             <li>Pera</li>
             <li>Piña</li>
             <li>Cereza</li>
             <li>Naranja</li>
           </ol>
-          <input type= "text" id= "agregarFruta" value="fruta"/>
+          <input type= "text" id= "agregarFruta" value=""/>
           <button type="button" onclick="agregar();">Agregar</button>
 
   </body>
